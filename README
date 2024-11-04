@@ -20,6 +20,11 @@ key code / scan code / key symbol sets:
  - Xorg OS-X
  - XOrg Cygwin
  - RFB
+ - HTML code
+ - QEMU QKeyCode
+ - Sun KBD
+ - Apple ADB
+ - NeXT Cube
 
 Licensing
 ---------
