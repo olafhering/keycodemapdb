@@ -90,6 +90,10 @@ class Database:
     # Reference: http://www.archive.org/stream/apple-guide-macintosh-family-hardware/Apple_Guide_to_the_Macintosh_Family_Hardware_2e#page/n345/mode/2up
     MAP_ADB = "adb"
 
+    # NeXT Cube
+    # Reference: https://github.com/spenczar/usb-next/blob/main/keymap.h
+    MAP_NEXT = "next"
+
     MAP_LIST = (
         MAP_LINUX,
         MAP_OSX,
@@ -106,6 +110,7 @@ class Database:
         MAP_QCODE,
         MAP_SUN,
         MAP_ADB,
+        MAP_NEXT,
 
         # These are derived from maps above
         MAP_XTKBD,
@@ -131,6 +136,7 @@ class Database:
         MAP_XKB: 15,
         MAP_SUN: 17,
         MAP_ADB: 18,
+        MAP_NEXT: 19,
     }
 
     ENUM_COLUMNS = {
