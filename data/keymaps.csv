@@ -181,11 +181,11 @@ KEY_DELETE,111,ForwardDelete,0x75,0xe053,0xe071,0x64,76,VK_DELETE,0x2e,0x63,0x63
 KEY_MACRO,112,,,0xe06f,0xe06f,0x8e,,,,,,,,,I120,,,,
 KEY_MUTE,113,Mute,0x4a,0xe020,0xe023,0x9c,127,VK_VOLUME_MUTE,0xad,,,,,AudioVolumeMute,MUTE,audiomute,,,
 KEY_MUTE,113,Mute,0x4a,0xe020,0xe023,0x9c,239,VK_VOLUME_MUTE,0xad,,,,,AudioVolumeMute,MUTE,audiomute,,,
-KEY_VOLUMEDOWN,114,VolumeDown,0x49,0xe02e,0xe021,0x9d,129,VK_VOLUME_DOWN,0xae,,,,,AudioVolumeDown,VOL-,volumedown,,,
-KEY_VOLUMEDOWN,114,VolumeDown,0x49,0xe02e,0xe021,0x9d,238,VK_VOLUME_DOWN,0xae,,,,,AudioVolumeDown,VOL-,volumedown,,,
+KEY_VOLUMEDOWN,114,VolumeDown,0x49,0xe02e,0xe021,0x9d,129,VK_VOLUME_DOWN,0xae,,,,,AudioVolumeDown,VOL-,volumedown,,,0x02
+KEY_VOLUMEDOWN,114,VolumeDown,0x49,0xe02e,0xe021,0x9d,238,VK_VOLUME_DOWN,0xae,,,,,AudioVolumeDown,VOL-,volumedown,,,0x02
 KEY_VOLUMEUP,115,VolumeUp,0x48,0xe030,0xe032,0x95,128,VK_VOLUME_UP,0xaf,,,,,AudioVolumeUp,VOL+,volumeup,,,0x1a
 KEY_VOLUMEUP,115,VolumeUp,0x48,0xe030,0xe032,0x95,237,VK_VOLUME_UP,0xaf,,,,,AudioVolumeUp,VOL+,volumeup,,,0x1a
-KEY_POWER,116,,,0xe05e,0xe037,,102,,,,,,,Power,POWR,power,,0x7f7f,
+KEY_POWER,116,,,0xe05e,0xe037,,102,,,,,,,Power,POWR,power,,0x7f7f,0x58
 KEY_KPEQUAL,117,ANSI_KeypadEquals,0x51,0x59,0x0f,,103,,,0x76,0x76,XK_KP_Equal,0xffbd,NumpadEqual,KPEQ,kp_equals,0x2d,0x51,0x27
 KEY_KPPLUSMINUS,118,,,0xe04e,0xe079,,,,,,,,,,I126,,,,
 KEY_PAUSE,119,,,0xe046,0xe077,0x62,72,VK_PAUSE,0x013,0x66,0x66,XK_Pause,0xff13,Pause,PAUS,pause,0x15,0x71,
@@ -302,8 +302,8 @@ KEY_SPORT,220,,,0xe044,,,,,,,,,,,I228,,,,
 KEY_SHOP,221,,,0xe045,,,,,,,,,,,I229,,,,
 KEY_ALTERASE,222,,,0xe014,,,,,,,,,,,I230,,,,
 KEY_CANCEL,223,,,0xe04a,,,,,,,,,,,I231,,,,
-KEY_BRIGHTNESSDOWN,224,,,0xe04c,,,,,,,,,,,I232,,,,
-KEY_BRIGHTNESSUP,225,,,0xe054,,,,,,,,,,,I233,,,,
+KEY_BRIGHTNESSDOWN,224,,,0xe04c,,,,,,,,,,,I232,,,,0x01
+KEY_BRIGHTNESSUP,225,,,0xe054,,,,,,,,,,,I233,,,,0x19
 KEY_MEDIA,226,,,0xe06d,0xe050,,,,,,,,,MediaSelect,I234,mediaselect,,,
 KEY_SWITCHVIDEOMODE,227,,,0xe056,,,,,,,,,,,I235,,,,
 KEY_KBDILLUMTOGGLE,228,,,0xe057,,,,,,,,,,,I236,,,,

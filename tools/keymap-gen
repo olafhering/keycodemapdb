@@ -93,6 +93,7 @@ class Database:
     # NeXT Cube
     # Reference: https://github.com/spenczar/usb-next/blob/main/keymap.h
     #            https://github.com/NetBSD/src/blob/trunk/sys/arch/next68k/dev/wskbdmap_next.c
+    #            https://sourceforge.net/p/previous/code/HEAD/tree/trunk/src/keymap.c
     MAP_NEXT = "next"
 
     MAP_LIST = (
